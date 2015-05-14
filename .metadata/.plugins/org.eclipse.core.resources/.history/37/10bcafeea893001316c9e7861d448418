@@ -1,0 +1,21 @@
+//Write a function to e reverse the order of words in a sentence using constant extra space 
+//eg: "Here I am" would be "am I Here". 
+
+package com.boyi.careercupproblems;
+
+import java.util.ArrayList;
+
+public class ReverseWords {
+
+	public static void main(String[] args) {
+       String sentence= "Here I am";
+       String[] splitst= sentence.split(" ");
+       ArrayList<String> splitnew = new ArrayList<String>();       
+       for (int i=0;i<splitst.length;i++) {
+    	   splitnew.add(splitst[splitst.length-1-i]);
+       }
+       
+       System.out.print(splitnew);
+	}
+
+}

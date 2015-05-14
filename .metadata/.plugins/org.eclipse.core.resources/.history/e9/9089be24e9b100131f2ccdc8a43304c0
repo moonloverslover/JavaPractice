@@ -1,0 +1,27 @@
+package com.boyi.chapter8.parkinglot;
+
+import java.util.ArrayList;
+
+
+public enum VehicleSize{Motorcycle, Compact, Large};
+
+public abstract class Vehicle {
+ 
+  protected ArrayList<ParkingSpot> parkingSpots = new ArrayList<ParkingSpot>();
+  protected String licencePlate;
+  protected int spotsNeeds;
+  protected VehicleSize size;
+  
+  
+  public int getSpotsNeeded(){
+	  return spotsNeeds;
+  }
+  
+  public VehicleSize getsize(){
+	  return size;
+  }
+
+  public void parkInSpot(ParkingSpot s){
+	  parkingSpots.add(s);
+  }
+}

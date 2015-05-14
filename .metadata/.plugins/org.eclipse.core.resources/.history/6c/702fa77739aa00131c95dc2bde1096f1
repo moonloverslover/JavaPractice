@@ -1,0 +1,33 @@
+package com.boyi.chaper1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class UniqueChar_solution {
+
+	public static void main(String[] args) {
+		String st = "z";
+		boolean output = check(st);
+        //System.out.print(output);
+	}
+
+	
+	public static boolean check(String st){
+		if (st.length()>26) {
+			return false;
+		}
+
+		char[] chars = st.toCharArray();
+		Set<Character> uniquechars = new HashSet<Character>();
+		//for(int i=0;i<st.length();i++){
+		int value = 1;
+		//System.out.print(value);		
+		System.out.print((value|=2));
+		return true;
+		
+	}
+
+}
+
+
+//a-z: 97-122

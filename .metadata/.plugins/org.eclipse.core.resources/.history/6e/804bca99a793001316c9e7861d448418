@@ -1,0 +1,16 @@
+package com.boyi.careercupproblems;
+
+public class Names {
+
+	public static void main(String[] args) {
+      String name1="boyi";
+      String name2="lisa";
+      
+      System.out.print(name1.hashCode()+"\n");
+      System.out.print(name2.hashCode()+"\n");
+      System.out.print(equals(name1,name2));
+
+
+	}
+
+}

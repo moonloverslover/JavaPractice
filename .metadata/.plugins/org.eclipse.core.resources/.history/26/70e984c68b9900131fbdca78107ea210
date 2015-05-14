@@ -1,0 +1,34 @@
+//How would you structure the game of life (classes, functions etc...)? How would you structure the board if it was played on a sphere?
+
+package com.boyi.careercupproblems;
+
+public class GameofLife {
+	
+	Integer[][] board;
+	
+	
+	public GameofLife(Integer[][] seed){
+		
+	}
+	
+	
+	public void evolve(){
+		
+	}
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+      Integer[][] seed = {{0,0,0,0},{0,1,1,0},{0,1,1,0},{0,0,0,0}};
+	}
+}

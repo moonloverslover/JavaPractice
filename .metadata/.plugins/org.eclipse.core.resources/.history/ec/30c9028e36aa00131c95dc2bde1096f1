@@ -1,0 +1,36 @@
+package com.boyi.chaper1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class UniqueChar {
+	
+	public static boolean check(String st){
+		if (st.length()>26) {
+			return false;
+		}
+		
+		char[] chars = st.toCharArray();
+		Set<Character> uniquechars = new HashSet<Character>();
+		for(int i=0;i<chars.length;i++){
+			uniquechars.add(chars[i]);
+		}
+		if (uniquechars.size()==chars.length){
+		return true;
+		}
+		else{
+		}
+		return false;
+	}
+
+	public static void main(String[] args) {
+		String st = "bok";
+		boolean output = check(st);
+        //System.out.print(output);
+        System.out.print(st.length());
+
+	}
+
+}
+
+

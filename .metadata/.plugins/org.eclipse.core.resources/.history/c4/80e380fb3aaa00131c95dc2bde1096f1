@@ -1,0 +1,28 @@
+package com.boyi.chaper1;
+
+
+
+public class UniqueChar_solution {
+
+	public static void main(String[] args) {
+		String st = "c";
+		boolean output = check(st);
+        //System.out.print(output);
+	}
+
+	
+	public static boolean check(String st){
+	
+		//for(int i=0;i<st.length();i++){
+		//int value = st.charAt(0)-'a';
+		//System.ou.print(value);
+		int value=3;
+		System.out.print(value|=2);
+		return true;
+		
+	}
+
+}
+
+
+//a-z: 97-122

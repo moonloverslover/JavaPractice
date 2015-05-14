@@ -1,0 +1,9 @@
+package com.boyi.careercupproblems;
+
+public class PrintDublicates {
+
+	public static void main(String[] args) {
+       double[] numbers = { 1, 3, 5, 3, 6 ,4 ,9, 6 ,5, 4, 7, 4 ,3, 7 ,8, 9};
+	}
+
+}

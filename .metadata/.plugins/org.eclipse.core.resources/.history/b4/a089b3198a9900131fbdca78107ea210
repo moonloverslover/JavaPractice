@@ -1,0 +1,20 @@
+//How would you structure the game of life (classes, functions etc...)? How would you structure the board if it was played on a sphere?
+
+package com.boyi.careercupproblems;
+
+public class GameofLife {
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.boyi.careercupproblems;
+
+public class Arrange {
+
+	public static String arrange(String st) {
+		
+	   char[] allchar = st.toCharArray();
+	   ArrayList<char> al = new ArrayList<char>();
+	   
+	   //Set<char> uniquechar = new HashSet<char>();
+	
+	}
+	
+	public static void main(String[] args) {
+       String st = "sdfng343dfgh234dga";
+       String st_arranged = arrange(st);
+	}
+	
+	
+
+}

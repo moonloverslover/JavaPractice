@@ -1,0 +1,36 @@
+package com.boyi.chapter8.parkinglot;
+
+public class Level {
+	
+	private int floor;
+	private int availableSpots=0;
+	private ParkingSpot[] spots;
+	private static final int SPOTS_PER_ROW=10;
+	
+	 
+	
+	public Level(int floor, int numberSpots){
+		
+	}
+	
+	public int availableSpots(){
+		return availableSpots;
+	}
+	
+	public boolean parkVehicle(Vehicle v){
+		return true;  ///
+	}
+	
+	private boolean parkStartingAtSpot(int num,Vehicle v){
+		return true;  ///
+	}
+	
+	private int findAvailabeSpots(Vehicle v){
+		return 1;  ///
+	}
+	
+	public void spotFreed(){
+		availableSpots++;
+	}
+
+}

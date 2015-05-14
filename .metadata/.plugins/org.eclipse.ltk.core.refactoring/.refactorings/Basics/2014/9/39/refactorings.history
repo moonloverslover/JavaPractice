@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.boyi.basics.LinkedList&apos; to &apos;LinkedListExample&apos;&#x0A;- Original project: &apos;Basics&apos;&#x0A;- Original element: &apos;com.boyi.basics.LinkedList&apos;&#x0A;- Renamed element: &apos;com.boyi.basics.LinkedListExample&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.boyi.basics{LinkedList.java[LinkedList" matchStrategy="1" name="LinkedListExample" qualified="false" references="true" similarDeclarations="false" stamp="1411414801038" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package com.boyi.chapter8.parkinglot;
+
+public class ParkingSpot {
+	private Level level;
+	private int row;
+	private int sportNumber;
+	private Vehicle vehicle;
+	private VehicleSize spotSize;
+	
+	
+	public ParkingSpot(Level level,int row,int sportNumber,VehicleSize vehicleSize){
+		
+	}
+	
+	
+
+}

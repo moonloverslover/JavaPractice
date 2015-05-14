@@ -1,0 +1,29 @@
+package com.boyi.careercupproblems;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Arrange {
+
+	public static String arrange(String st) {
+		
+	   char[] allchar = st.toCharArray();
+	   
+	   Set<String> unique = new HashSet<String>();
+	   
+	   for (char singlechar:allchar){
+		   unique.add(String.valueOf(singlechar));
+	   }
+	   
+	   System.out.print(unique);
+	  return "A";
+	}
+	
+	public static void main(String[] args) {
+       String st = "sdfng343dfgh234dga";
+       String st_arranged = arrange(st);
+	}
+	
+	
+
+}

@@ -1,0 +1,43 @@
+package com.boyi.careercupproblems;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Arrange {
+
+	public static void arrange(String st) {
+		
+	   char[] allchar = st.toCharArray();
+	   String dd = String.valueOf(allchar);
+	    System.out.print(dd);
+
+	   
+	   Set<String> unique = new HashSet<String>();
+	   ArrayList<String> allst = new ArrayList<String>();
+	   
+	   for (char singlechar:allchar){
+		   unique.add(String.valueOf(singlechar));
+		   allst.add(String.valueOf(singlechar));
+	   }
+	   
+	   
+	   
+	   for (int i=0;i<unique.size();i++) {
+	    int count = Collections.frequency(allst, unique.toArray()[i]);
+	    for (int j=0;j<count;j++){
+	   // System.out.print(unique.toArray()[i]);
+	    }
+	   }
+	   
+	}
+	
+	public static void main(String[] args) {
+       String st = "sdfng343dfgh234dga";
+       arrange(st);
+	}
+	
+	
+
+}
